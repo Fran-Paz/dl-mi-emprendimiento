@@ -67,6 +67,7 @@ body {
 .nav__logo {
   width: 34px;
   margin-left: 4px;
+  padding-left: 20px;
 }
 .nav__list {
   list-style: none;
