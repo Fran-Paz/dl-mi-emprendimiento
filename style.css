@@ -38,6 +38,9 @@ body {
 .blog {
     border: 1px solid black;
     padding: 8px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
 }
 
 .blog .article {
@@ -124,6 +127,9 @@ body {
     text-align: center;
     border: 1px solid black;
     padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
 }
 
 .index__title {
@@ -170,6 +176,35 @@ body {
 
 .index__footer-img svg path.code {
     animation: wave 1s linear infinite alternate;
+}
+
+.final-footer {
+    background-color: #343434;
+    height: 80px;
+    color: white;
+    padding-top: 4em;
+    display: block;
+}
+
+.footer-left {
+    float: left;
+    padding-left: 7em;
+}
+
+.footer-right {
+    float: right;
+    padding-right: 50px;
+}
+
+.footer-right a {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.final-footer button {
+    border-radius: 10px;
+    background-color: rgb(235, 192, 75);
 }
 
 /*# sourceMappingURL=style.css.map */
